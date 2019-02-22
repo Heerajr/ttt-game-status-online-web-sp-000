@@ -43,6 +43,10 @@ def full?(board)
 
   def winner(board)
     if won?(board)
+<<<<<<< HEAD
        board[won?(board).first]
+=======
+    return
+>>>>>>> c607a56e8d92a1e5333c606a3f75249ed179cb91
   end
 end
